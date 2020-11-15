@@ -8,6 +8,7 @@ import { RightSectionComponent } from './app-right-section/app-right-section.com
 import { LeftSectionComponent } from './app-left-section/app-left-section.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDividerModule } from '@angular/material/divider';
+import  {MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { MatDividerModule } from '@angular/material/divider';
     BrowserAnimationsModule,
     MatGridListModule,
     MatDividerModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
