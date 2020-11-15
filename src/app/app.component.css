@@ -1,0 +1,38 @@
+.container {
+    width     : 1000px;
+    margin    : auto;
+    background: linear-gradient(90deg, #eae9e4 33%, rgb(251, 251, 251) 32%);
+}
+
+.bg {
+    position: relative;
+    width   : 1000px;
+    z-index : 0;
+}
+
+.brown {
+    position    : absolute;
+    top         : 0;
+    width       : 0;
+    height      : 0;
+    border-top  : 350px solid #e2b995;
+    border-right: 550px solid transparent;
+    z-index     : 10;
+}
+
+.green {
+    position   : absolute;
+    top        : 0;
+    right      : 0;
+    width      : 0;
+    height     : 0;
+    border-top : 250px solid #9cb8a0;
+    border-left: 900px solid transparent;
+    z-index    : 20;
+}
+
+app-left-section,
+app-right-section {
+    height    : 100%;
+    width     : 100%;
+}

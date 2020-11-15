@@ -1,0 +1,28 @@
+.section {
+    height    : 100%;
+    padding   : 40px;
+    margin-top: 100px;
+}
+
+.name {
+    width         : 500px;
+    padding-top   : 20px;
+    font-size     : 2.8rem;
+    color         : #e2b995;
+    text-transform: uppercase;
+    line-height   : 3.2rem;
+    letter-spacing: 1px;
+}
+
+.brownDot {
+    width : 40px;
+    height: 4px;
+    display: inline-block;
+    margin: 10px 0;
+    background: #e2b995;
+}
+
+.prof{
+    font-size: 1.4em;
+    font-weight: 200;
+}
