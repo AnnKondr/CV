@@ -1,14 +1,20 @@
 <div class="section">
     <div class="name">
-        Hanna Kondratovets
+        {{name}}
     </div>
     <span class="brownDot"></span>
-    <div class="prof">Frontend Developer | UI Designer</div>
+    <div class="prof">{{prof}}</div>
     <div class="block pt80">
-        <div class="title">Education</div>
+        <div class="title ">Education</div>
         <span class="hr"></span>
-
-
-
+        <div class="px-2" *ngFor="let education of educations">
+            <div class="row">
+                <p class="text uppercase regular">{{education.label}}</p>
+                <p class="text bold"><span class="brown bold"> //</span> {{education.year}}</p>
+            </div>
+            <p class="text ">{{education.faculty}}</p>
+            <p class="text uppercase bold">{{education.speciality}}</p>
+            <span class="hr"></span>
+        </div>
     </div>
 </div>

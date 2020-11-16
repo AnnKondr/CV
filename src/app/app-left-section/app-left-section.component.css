@@ -28,7 +28,7 @@
     display   : inline-block;
     width     : 100%;
     height    : 1px;
-    background: rgb(175, 175, 175);
+    background: rgb(199, 199, 199);
     margin    : 14px 0;
 }
 
@@ -57,4 +57,21 @@
 
 .regular {
     font-weight: 400;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.pr-1 {
+    padding-right: 15px;
+}
+
+.pb-1 {
+    padding-bottom: 10px;
+}
+
+a {
+    color          : #696969;
+    text-decoration: none;
 }

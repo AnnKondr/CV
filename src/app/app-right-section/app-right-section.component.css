@@ -32,6 +32,10 @@
     padding-top: 80px;
 }
 
+.px-2 {
+    padding: 14px 0;
+}
+
 .title {
     font-size     : 1.4rem;
     font-weight   : 200;
@@ -47,5 +51,33 @@
     display   : inline-block;
     width     : 100%;
     height    : 1px;
-    background: rgb(175, 175, 175);
+    background: rgb(199, 199, 199);
+}
+
+.text {
+    font-size  : 1rem;
+    font-weight: 200;
+    color      : #696969;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.row {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.brown {
+    color      : #e2b995;
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: 400;
 }
