@@ -1,6 +1,6 @@
 <div class="section">
     <div class="name">
-        {{name}}
+        {{name  | uppercase}}
     </div>
     <span class="brownDot"></span>
     <div class="prof">{{prof}}</div>
@@ -9,11 +9,24 @@
         <span class="hr"></span>
         <div class="px-2" *ngFor="let education of educations">
             <div class="row">
-                <p class="text uppercase regular">{{education.label}}</p>
+                <p class="text regular">{{education.label  | uppercase}}</p>
                 <p class="text bold"><span class="brown bold"> //</span> {{education.year}}</p>
             </div>
             <p class="text ">{{education.faculty}}</p>
             <p class="text uppercase bold">{{education.speciality}}</p>
+            <span class="hr"></span>
+        </div>
+    </div>
+     <div class="block px-2">
+        <div class="title ">Employment History</div>
+        <span class="hr"></span>
+        <div class="px-2" *ngFor="let experience of experiences.slice().reverse()">
+            <p class="text regular">{{experience.profesion | uppercase}}</p>
+            <div class="row">
+                <p class="text regular">{{experience.firm}}</p>
+                <p class="text bold "><span class="brown bold"> //</span> {{experience.year | uppercase}}</p>
+            </div>            
+            <p class="text">{{experience.details}}</p>
             <span class="hr"></span>
         </div>
     </div>

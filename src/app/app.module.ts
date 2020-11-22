@@ -9,6 +9,7 @@ import { LeftSectionComponent } from './app-left-section/app-left-section.compon
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDividerModule } from '@angular/material/divider';
 import  {MatIconModule } from '@angular/material/icon';
+import {MatSliderModule} from '@angular/material/slider';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import  {MatIconModule } from '@angular/material/icon';
     MatGridListModule,
     MatDividerModule,
     MatIconModule,
+    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
